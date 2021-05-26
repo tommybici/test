@@ -75,7 +75,7 @@ from main_startup.helper_func.basic_helpers import edit_or_reply
     "example": "{ch}helloworld"
     })
 async def hello_world(client, message):
-    mg = await edit_or_reply(message, "`Hello World! This Works!`")
+    mg = await edit_or_reply(message, "`Hello World! This Works test!`")
 ```
 ### Custom Filters 📣
 
